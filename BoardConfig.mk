@@ -62,3 +62,18 @@ TW_USE_TOOLBOX := true
 
 # For ci only
 TW_DEVICE_VERSION := 1
+
+# SHRP
+SHRP_PATH := device/mobvoi/mooneye
+SHRP_MAINTAINER := Lanmiemie
+SHRP_DEVICE_CODE := mooneye
+SHRP_INTERNAL := /sdcard
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
+SHRP_DEVICE_TYPE := A_Only
+SHRP_EXPRESS := true
+SHRP_EXPRESS_USE_DATA := true
+SHRP_DARK := true
+
+#SHRP Addons
+SHRP_SKIP_DEFAULT_ADDON_1 := true
+SHRP_SKIP_DEFAULT_ADDON_2:= true
